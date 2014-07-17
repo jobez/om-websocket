@@ -4,8 +4,11 @@ A om-component for a websocket connection.
 
 ## Usage
 
-This component implements a google closure websocket. Get more info about their implementation [here](http://docs.closure-library.googlecode.com/git/class_goog_net_WebSocket.html)
-Please note that the default setting is for the websocket to reconnect on disconnections. Adding hooks to configure the settings on the web socket is on my todos.
+This component implements a google closure websocket. Get more info about their implementation [here](http://docs.closure-library.googlecode.com/git/class_goog_net_WebSocket.html).
+
+Please note that the default setting is for the websocket to reconnect on disconnections. 
+
+Adding hooks to configure the settings on the web socket is on my todos.
 
 You pass om-websocket the following attributes as opts:
 
