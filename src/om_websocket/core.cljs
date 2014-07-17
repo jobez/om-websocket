@@ -24,8 +24,7 @@
 ;; another for coordinating outgoing data -> websocket
 ;; this channel is shared state to the app
 
-(defn test []
-  "7")
+
 
 
 (defcomponent om-websocket [data owner opts]
@@ -48,5 +47,5 @@
                 
                 (in-coord ->websocket data owner)
                 (out-coord websocket-> data owner websocket)))
-  (render [_ _]
+  (render-state [_ _]
           (om/build (opts :child) data)))
