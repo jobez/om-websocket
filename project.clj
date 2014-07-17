@@ -1,4 +1,4 @@
-(defproject om-websocket "0.1.0-SNAPSHOT"
+(defproject om-websocket "0.1.0"
   :description "om component for websocket use!"
   :url "https://github.com/jobez/om-websocket"
   :license {:name "Eclipse Public License"
