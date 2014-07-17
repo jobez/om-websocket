@@ -20,7 +20,7 @@
 ;; my familiar (probably stupid) way and then refactor for elegance
 
 ;; one chan for coordinating received data <- websocket
-;; this channel is local to the component
+;; this channel is local to the fcomponent
 ;; another for coordinating outgoing data -> websocket
 ;; this channel is shared state to the app
 
